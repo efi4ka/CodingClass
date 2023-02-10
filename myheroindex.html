@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My hero section</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+
+            }
+
+            html {
+                font-family: "Roboto", sans-serif;
+            }
+
+            .container {
+                margin: 0 auto;
+                width: 1200px;
+            }
+
+
+            .my-main-container {
+
+                position: absolute;
+
+                /* In relation to PARENT size */
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 1200px;
+
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-between;
+                font-weight: 700;
+                padding-top: 24px;
+                margin-bottom: 48px;
+            }
+
+            h1 {
+                font-size: 48px;
+                margin-bottom: 48px;
+            }
+
+            p {
+                font-size: 24px;
+                margin-bottom: 24px;
+            }
+
+            header {
+                background-image: linear-gradient(rgba(34, 34, 34, 0.6),
+                        rgba(34, 34, 34, 0.6)),
+                    url(hero.jpg);
+                color: #FFf;
+                background-size: cover;
+                height: 100vw;
+            }
+
+            .btn:link,
+            .btn:visited {
+
+                background-color: purple;
+                text-decoration: none;
+                border-radius: 9px;
+                display: inline-block;
+                font-size: 20px;
+                font-weight: 600;
+                text-align: center;
+                padding: 16px 32px;
+                color: #FFf
+            }
+
+            .inner-container {
+                width: 50%;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <nav class="container">
+                <div>
+                    ЛОГО
+                </div>
+                <div>
+                    НАВИГАЦИЯ
+                </div>
+            </nav>
+            <div class="my-main-container">
+                <div class="inner-container">
+                    <h1>
+                        Умни офис мебели
+                    </h1>
+                    <p>Ние съчетаваме технология с традиции, за да създадем уникални офисни пространства!</p>
+                    <a class="btn" href="mailto:abv@abv.bg">Поискай оферта</a>
+                </div>
+            </div>
+        </header>
+        <section class="container">
+            <div>
+                az sum div 1
+            </div>
+            <div>
+                az sum div 2
+            </div>
+        </section>
+    </body>
+
+</html>
