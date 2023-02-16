@@ -84,6 +84,13 @@ body {
 
 }
 
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -116,7 +123,7 @@ body {
   display: block;
   font-size: 1.6rem;
   font-weight: 500;
-  color: pink;
+  color: #81417D;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
@@ -145,13 +152,13 @@ body {
 
 .btn--full:link,
 .btn--full:visited {
-  background-color: pink;
+  background-color: #81417D;
   color: #fff;
 }
 
 .btn--full:hover,
 .btn--full:active {
-  background-color: #81417D;
+  background-color: #81417de7;
 }
 
 .btn--outline:link,
@@ -168,6 +175,13 @@ body {
 
   /* Trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #81417D;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
 }
 
 .link:link,
@@ -313,7 +327,7 @@ body {
 /**************************/
 
 .section-hero {
-  background-color: #dfb3ce99;
+  background-color: #81417d18;
   padding: 4.8rem 0 9.6rem 0;
 }
 
@@ -341,7 +355,7 @@ body {
   box-shadow: #555;
 }
 
-.delivered-courses {
+.delivered-products {
   display: flex;
   align-items: center;
   gap: 1.6rem;
@@ -456,7 +470,7 @@ body {
 .step-img-box::after {
   width: 45%;
   padding-bottom: 45%;
-  background-color: rgb(236, 231, 235);
+  background-color: #81417D;
   z-index: -1;
 }
 
@@ -471,7 +485,7 @@ body {
 
 .section-products {
   padding: 9.6rem 0;
-  background-color: #dfb3ce99;
+  background-color: #81417d18;
 }
 
 .product {
@@ -479,6 +493,7 @@ body {
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+  background-color: white;
 }
 
 .product:hover {
@@ -611,7 +626,7 @@ body {
 }
 
 /**************************/
-/* Course SECTION */
+/* PRODUCT SECTION */
 /**************************/
 
 .section-pricing {
@@ -738,7 +753,7 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
 
-  background-image: linear-gradient(to right bottom, #DFB3CE, #81417D);
+  background-image: linear-gradient(to right bottom, #81417D, #DFB3CE);
   overflow: hidden;
 }
 
@@ -763,7 +778,7 @@ body {
   background-image: linear-gradient(to right bottom,
       #DFB3CE,
       transparent),
-    url("../img/ladies/lady3.jpeg");
+    url("../img/step2.jpeg");
   background-size: cover;
   background-position: center;
 }
